@@ -11,7 +11,7 @@ elif num == 1:
 elif num == 2:
     print('2 is a even prime number')
 else:
-    for i in range(2, num):
+    for i in range(2, int(num/2)):
         if num % i == 0:
             print(num, 'Number is not Prime')
             exit()
